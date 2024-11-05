@@ -47,7 +47,8 @@ System.out.println(a);
 b.reverse();
 System.out.println(b);
 
-//concat, contains, to upper, to lower		
+//concat, contains, to upper, to lower		to check
+
 	}
 
 }
