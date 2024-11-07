@@ -9,7 +9,7 @@ public class SuperChildMethod extends SuperParentMethod {
 	}
 public void display2()
 {
-	System.out.println("Child method class");
-	super.display1(); //refer the method in parent class from inside method
+	System.out.println("Super child method");
+	super.display1(); 		//refer the method in parent class from inside the method 
 }
 }
