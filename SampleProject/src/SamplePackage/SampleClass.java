@@ -4,14 +4,14 @@ public class SampleClass {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String S="Hello";
+		String S="Hello";					//String declared using string literals
 		System.out.println(S);
 		
-		String M= new String("Hai");
+		String M= new String("Hai");		//string declared using new keyword
 		System.out.println(M);
 
 		char ar[]= {'a','b','c','d','e','f','g'};
-		String P = new String(ar);
+		String P = new String(ar);			//Converting char array to single string 
 		System.out.println(P);
 		
 		
@@ -22,7 +22,7 @@ public class SampleClass {
 		System.out.println("Char at 4th index is "+C);
 		
 		int a =10;
-		String New=String.valueOf(a); // used to convert any datatype to string
+		String New=String.valueOf(a); // used to convert any datatype to string(here, int to string)
 		System.out.println(New);
 		
 		String ab="Kishore";			//Declared using String literals

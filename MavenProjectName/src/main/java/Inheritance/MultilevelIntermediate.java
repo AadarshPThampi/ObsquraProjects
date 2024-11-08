@@ -6,3 +6,6 @@ public class MultilevelIntermediate extends MultilevelParent {
 	 System.out.println("Intermediate class");
  }
 }
+
+
+// Main method is not required for Intermediate class.
