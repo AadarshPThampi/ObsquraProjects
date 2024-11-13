@@ -1,6 +1,6 @@
 package Aggregation;
 
-public class Child {
+public class Child {		// there is no inheritance here. just given name for easiness.
 String Nam;
 String Model;
 int year;

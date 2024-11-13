@@ -1,6 +1,6 @@
 package Aggregation;
 
-public class ChildClass {
+public class ChildClass {			// there is no inheritance here. just given name for easiness.
 	
 	ParentClass refvar;
 

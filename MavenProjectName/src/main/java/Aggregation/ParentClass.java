@@ -1,6 +1,6 @@
 package Aggregation;
 
-public class ParentClass {
+public class ParentClass {		// No parent child relation for Aggregation. Name's for easiness.
 
 	String Name;
 	String Desig;
