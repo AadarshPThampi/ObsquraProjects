@@ -11,13 +11,13 @@ public class Example1 {
 			int div=a/b;					// arithmetic exception code placed inside try block
 		}
 		
-		catch (ArithmeticException var)			// we know its an arithmetic exception.hece given classname
+		catch (ArithmeticException obj)			// we know its an arithmetic exception.hece given classname
 		{
 		//	System.out.println("Exception Handled");	
 			b=2;
 			int newVal=a/b;
 			System.out.println(newVal);
-			System.out.println(var);		//prints the exception class name
+			System.out.println(obj);		//prints the exception class name
 		}
 		
 		finally								//executes if exception is handled or not
