@@ -5,7 +5,7 @@ String Name;
 String City;
 int pin;
 	
-public Parent(String Name, String City, int pin  )
+public Parent(String Name, String City, int pin  )		//parameterized constructor
 {
 	this.Name = Name;
 	this.City = City;

@@ -1,15 +1,15 @@
 package Aggregation;
 
-public class Child {		// there is no inheritance here. just given name for easiness.
-String Nam;
+public class Child {		// there is no inheritance here. name just given  for easiness.
+String Brand;
 String Model;
 int year;
 
-Parent refvar;			// Reference variable for parent class
+Parent refvar;			// Reference variable for other class(ClassName   RefVariableaName)
 
-public Child(String Nam, String Model, int year, Parent refvar)
+public Child(String Brand, String Model, int year, Parent refvar)	//constructor
 {
-	this.Nam= Nam;
+	this.Brand= Brand;
 	this.Model=Model;
 	this.year=year;
 	this.refvar=refvar;
@@ -18,7 +18,7 @@ public Child(String Nam, String Model, int year, Parent refvar)
 public void display()
 {
 	//refering varibales from child class using normal method.
-	System.out.println(Nam + Model + year);
+	System.out.println(Brand + Model + year);
 	// refering variables from parent class using reference variable.
 	System.out.println(refvar.Name + refvar.City+ refvar.pin);		
 }
