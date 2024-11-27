@@ -4,7 +4,7 @@ public class SuperInstanceChild extends SuperInstanceparent {
 
 	String b="Child class instance variable";		//Instance variable in child class
 	public static void main(String[] args) {
-		SuperInstanceChild obj = new SuperInstanceChild();
+		SuperInstanceChild obj = new SuperInstanceChild();	// object creation for child class
 		obj.display();
 	}
 

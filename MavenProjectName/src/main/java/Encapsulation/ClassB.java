@@ -1,6 +1,6 @@
 package Encapsulation;
 
-public class ClassB {
+public class ClassB {							// NO Inheritance
 
 	public static void main(String[] args) {
 		ClassA obj = new ClassA();				// create object of "PARENT" method

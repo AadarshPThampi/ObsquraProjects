@@ -1,9 +1,9 @@
 package abstraction;
 
-public class Child extends Parent{
+public class Child extends Parent{					//Inheritance
 
 	public static void main(String[] args) {
-		Child obj = new Child();			//object creation for Child class
+		Child obj = new Child();					//object creation for Child class
 		obj.show();
 		System.out.println("Sum is "+obj.sum(2, 3));
 		

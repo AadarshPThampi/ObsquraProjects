@@ -1,6 +1,6 @@
 package interfacePackage;
 
-public class ChildClass implements Parent{		// used keyword implements 
+public class ChildClass implements Parent{		// used keyword "implements" from interface to class
 
 	public static void main(String[] args) {
 		ChildClass obj = new ChildClass();		// object created for child class
@@ -10,7 +10,7 @@ public class ChildClass implements Parent{		// used keyword implements
 
 	@Override
 	public void display() {	
-		System.out.println("Parent interface");
+		System.out.println("Abstract method in Parent interface");
 		
 	}
 
