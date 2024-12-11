@@ -8,9 +8,9 @@ public class SuperConstructorChild extends SuperConstructorParent {
 		SuperConstructorChild obj = new SuperConstructorChild();	
 		
 	}
-	public SuperConstructorChild() //constructor
+	public SuperConstructorChild()			 //default constructor of child class
 	{
-		super(10,20);
+		super(10,20);						// super should be 1st statement inside constructor
 		System.out.println("Child class constructor");
 		
 	}

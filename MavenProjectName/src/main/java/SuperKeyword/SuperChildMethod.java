@@ -3,9 +3,9 @@ package SuperKeyword;
 public class SuperChildMethod extends SuperParentMethod {
 
 	public static void main(String[] args) {
-		SuperChildMethod obj = new SuperChildMethod();
+		SuperChildMethod obj = new SuperChildMethod();	//object for child class
 		obj.display2();
-
+		
 	}
 public void display2()
 {

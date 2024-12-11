@@ -9,8 +9,8 @@ public class SampleClass extends Sample1{		//Inheritance
 			
 		//obj.privateMethod();				//private method not accessible from other class
 		//obj.defaultMethod();				//default method not accessible from other package
-		obj.protectedMethod();				//accessed using inheritance
-		obj.publicMethod();					//accessed using inheritance
+		obj.protectedMethod();				//accessed outside package using inheritance
+		obj.publicMethod();					//accessed anywhere using inheritance
 		
 	}
 

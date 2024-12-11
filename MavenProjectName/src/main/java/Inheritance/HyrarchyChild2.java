@@ -3,7 +3,7 @@ package Inheritance;
 public class HyrarchyChild2 extends HyrarchyParent {
 
 	public static void main(String[] args) {
-		HyrarchyChild2 obj2=new HyrarchyChild2();
+		HyrarchyChild2 obj2=new HyrarchyChild2();	//object of child class 2 created
 		obj2.display1();
 		obj2.display3();
 		

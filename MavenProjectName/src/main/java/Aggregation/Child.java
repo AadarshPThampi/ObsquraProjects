@@ -5,7 +5,7 @@ String Brand;
 String Model;
 int year;
 
-Parent refvar;			// Reference variable for other class(ClassName   RefVariableaName)
+Parent refvar;				// Reference variable for other class(ClassName  RefVariableaName)
 
 public Child(String Brand, String Model, int year, Parent refvar)	//constructor
 {

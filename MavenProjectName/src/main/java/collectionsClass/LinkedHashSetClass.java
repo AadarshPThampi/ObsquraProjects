@@ -19,9 +19,9 @@ public class LinkedHashSetClass {
 		
 		System.out.println(var.contains("Sum"));
 		
-		System.out.println(var.getLast());
 		
-		var.removeFirst();
+		
+		var.remove("Diff");
 		System.out.println(var);
 		
 		for(String s:var)

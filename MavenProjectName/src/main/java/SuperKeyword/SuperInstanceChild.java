@@ -1,8 +1,8 @@
 package SuperKeyword;
 
-public class SuperInstanceChild extends SuperInstanceparent {
+public class SuperInstanceChild extends SuperInstanceparent {	//IS A Relationship
 
-	String b="Child class instance variable";		//Instance variable in child class
+	String b="Child class instance variable";				//Instance variable in child class
 	public static void main(String[] args) {
 		SuperInstanceChild obj = new SuperInstanceChild();	// object creation for child class
 		obj.display();

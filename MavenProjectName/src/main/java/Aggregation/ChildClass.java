@@ -2,7 +2,7 @@ package Aggregation;
 
 public class ChildClass {			// there is no inheritance here. just given name for easiness.
 	
-	ParentClass refvar;
+	ParentClass refvar;				// Reference variable for other class(ClassName  RefVariableaName)
 
 	int Age;
 	String Place;

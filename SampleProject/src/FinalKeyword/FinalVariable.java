@@ -13,7 +13,8 @@ public class FinalVariable {
 	
 	public void display()
 	{
-		a=30;
+		a=30;						// value of final variable a can't be changed
+		System.out.println(a);
 		
 	}
 }

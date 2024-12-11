@@ -3,4 +3,7 @@
   <groupId>Com.Obsqura</groupId>
   <artifactId>MavenProjectName</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+<properties>
+    <maven.compiler.release>17</maven.compiler.release>
+</properties>
 </project>
