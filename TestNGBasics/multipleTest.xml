@@ -1,0 +1,22 @@
+	<suite name="SuitName" thread-count ="10" parallel ="classes">
+		<test name="TestName">
+			<classes>
+				<class name="basics.FacebookExample">
+				</class>
+				<class name="basics.LaunchBrowser">
+				<methods>
+					<include name="verifyFlipkartTitle">
+					</include>
+				</methods>
+				</class>
+			</classes>
+		</test>
+		<test name="TestName 2">
+			<classes>
+				<class name="basics.RadioButtonTest">
+				</class>
+				<class name="basics.TableExample">
+				</class>
+			</classes>
+		</test>
+	</suite>
