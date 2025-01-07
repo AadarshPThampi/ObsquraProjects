@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="10" parallel="classes" name="Failed suite [SuitName]">
-  <test parallel="classes" name="TestName(failed)">
+<suite name="Failed suite [SuitName]">
+  <test name="TestName(failed)">
     <classes>
+      <class name="basics.FacebookExample">
+        <methods>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- basics.FacebookExample -->
+      <class name="basics.RadioButtonTest">
+        <methods>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- basics.RadioButtonTest -->
       <class name="basics.TableExample">
         <methods>
           <include name="launchBrowser"/>
@@ -15,17 +25,6 @@
           <include name="launchBrowser"/>
         </methods>
       </class> <!-- basics.LaunchBrowser -->
-      <class name="basics.FacebookExample">
-        <methods>
-          <include name="enterLoginCredentials" invocation-numbers="0 1 2"/>
-          <include name="launchBrowser"/>
-        </methods>
-      </class> <!-- basics.FacebookExample -->
-      <class name="basics.RadioButtonTest">
-        <methods>
-          <include name="launchBrowser"/>
-        </methods>
-      </class> <!-- basics.RadioButtonTest -->
     </classes>
   </test> <!-- TestName(failed) -->
 </suite> <!-- Failed suite [SuitName] -->

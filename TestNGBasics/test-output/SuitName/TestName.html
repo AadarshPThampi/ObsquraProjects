@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>TestName</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>9/1/1</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Jan 03 12:05:05 IST 2025</td>
+<td>Started on:</td><td>Fri Jan 03 20:39:46 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>6 seconds (6304 ms)</td>
+<tr><td>Total time:</td><td>33 seconds (33846 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,53 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='basics.LaunchBrowser.verifyFlipkartTitle()'><b>verifyFlipkartTitle</b><br>Test class: basics.LaunchBrowser</td>
+<td><div><pre>java.lang.AssertionError: expected [Happy New Year] but found [Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books &amp; More. Best Offers!]
+	at basics.LaunchBrowser.verifyFlipkartTitle(LaunchBrowser.java:32)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1814908102", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1814908102'><pre>java.lang.AssertionError: expected [Happy New Year] but found [Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books &amp; More. Best Offers!]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at basics.LaunchBrowser.verifyFlipkartTitle(LaunchBrowser.java:32)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>0</td>
+<td>basics.LaunchBrowser@654f0d9c</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -78,17 +125,81 @@ function toggleAllBoxes() {
 <td title='basics.FacebookExample.enterLoginCredentials()'><b>enterLoginCredentials</b><br>Test class: basics.FacebookExample<br>Parameters: usr1, psw1</td>
 <td></td>
 <td>0</td>
-<td>basics.FacebookExample@19bb07ed</td></tr>
+<td>basics.FacebookExample@6a28ffa4</td></tr>
 <tr>
 <td title='basics.FacebookExample.enterLoginCredentials()'><b>enterLoginCredentials</b><br>Test class: basics.FacebookExample<br>Parameters: usr2, psw2</td>
 <td></td>
 <td>0</td>
-<td>basics.FacebookExample@19bb07ed</td></tr>
+<td>basics.FacebookExample@6a28ffa4</td></tr>
 <tr>
 <td title='basics.FacebookExample.enterLoginCredentials()'><b>enterLoginCredentials</b><br>Test class: basics.FacebookExample<br>Parameters: usr3, psw3</td>
 <td></td>
 <td>0</td>
-<td>basics.FacebookExample@19bb07ed</td></tr>
+<td>basics.FacebookExample@6a28ffa4</td></tr>
+<tr>
+<td title='basics.TableExample.getAllDetails()'><b>getAllDetails</b><br>Test class: basics.TableExample</td>
+<td></td>
+<td>0</td>
+<td>basics.TableExample@48ae9b55</td></tr>
+<tr>
+<td title='basics.TableExample.getAllNames()'><b>getAllNames</b><br>Test class: basics.TableExample</td>
+<td></td>
+<td>0</td>
+<td>basics.TableExample@48ae9b55</td></tr>
+<tr>
+<td title='basics.TableExample.getTableHeadings()'><b>getTableHeadings</b><br>Test class: basics.TableExample</td>
+<td></td>
+<td>1</td>
+<td>basics.TableExample@48ae9b55</td></tr>
+<tr>
+<td title='basics.RadioButtonTest.verifyButtonText()'><b>verifyButtonText</b><br>Test class: basics.RadioButtonTest</td>
+<td></td>
+<td>0</td>
+<td>basics.RadioButtonTest@9353778</td></tr>
+<tr>
+<td title='basics.RadioButtonTest.verifyMaleButtonIsEnabled()'><b>verifyMaleButtonIsEnabled</b><br>Test class: basics.RadioButtonTest</td>
+<td></td>
+<td>0</td>
+<td>basics.RadioButtonTest@9353778</td></tr>
+<tr>
+<td title='basics.RadioButtonTest.verifyMaleButtonIsEnabled()'><b>verifyMaleButtonIsEnabled</b><br>Test class: basics.RadioButtonTest</td>
+<td></td>
+<td>0</td>
+<td>basics.RadioButtonTest@9353778</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='basics.LaunchBrowser.verifyCurrentURL()'><b>verifyCurrentURL</b><br>Test class: basics.LaunchBrowser</td>
+<td><div><pre>java.lang.Throwable: Method LaunchBrowser.verifyCurrentURL()[pri:0, instance:basics.LaunchBrowser@654f0d9c] depends on not successfully finished methods
+... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1694519286", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1694519286'><pre>java.lang.Throwable: Method LaunchBrowser.verifyCurrentURL()[pri:0, instance:basics.LaunchBrowser@654f0d9c] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
 </table><p>
 </body>
 </html>

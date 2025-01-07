@@ -1,4 +1,4 @@
-<suite name="SuitName" thread-count="10" parallel="classes">
+<suite name="SuitName">
 	<test name="TestName">
 		<classes>
 			<class name="basics.LaunchBrowser">
@@ -9,8 +9,7 @@
 			</class>
 			<class name="basics.TableExample">
 			</class>
-		</classes>
-		<classes>
+		
 			<class name="basics.FacebookExample">
 			</class>
 			<class name="basics.FacebookExample">
